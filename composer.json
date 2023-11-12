@@ -1,0 +1,7 @@
+{
+    "require": {
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "cboden/ratchet": "^0.4.4",
+        "sinergi/browser-detector": "^6.1"
+    }
+}

@@ -1,0 +1,228 @@
+        body {
+            background-color: #2c3e50;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #fff;
+            transition: color 0.3s ease; 
+        }
+
+.list-group {
+    border: none;
+}
+
+.list-group-item {
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.list-group-item:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 12px;
+    margin-bottom: 4px; 
+    transform: scale(1.05); 
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #3498db;
+        }
+
+        .navbar-dark .navbar-nav .nav-link.active {
+            color: #3498db;
+            font-weight: bold;
+        }
+
+.panel {
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px; 
+}
+
+.panel-header {
+    background-color: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+}
+
+.panel-body {
+    padding: 20px;
+}
+
+.panel:first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.panel:last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+        h2, h4 {
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            transition: color 0.3s ease; 
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        .balance {
+            color: #2ecc71;
+            font-weight: bold;
+        }
+
+        .text {
+            font-weight: bold;
+        }
+
+        ::-webkit-scrollbar {
+    width: 6px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #2c3e50; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #546e7a; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #455a64; 
+}
+.card,
+.modal-content {
+    background-color: #34495e;
+    color: #fff;
+}
+
+.bold-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.modal-header {
+    border-bottom: 1px solid #2c3e50; 
+}
+
+.modal-footer {
+    border-top: 1px solid #2c3e50; 
+}
+
+.btn-secondary {
+    background-color: #546e7a;
+    border-color: #546e7a;
+}
+
+.btn-secondary:hover {
+    background-color: #455a64;
+    border-color: #455a64;
+}
+
+.card-body p span.bold-montserrat {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.modal-body p span.bold-montserrat-details {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.modal-body p span.bold-montserrat {
+    font-weight: bold;
+}
+
+.dark-blue-input {
+    background-color: #34495e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.dark-blue-input:focus {
+    outline: none;
+    color: #fff;
+    background-color: #2c3e50;
+    border: none; /* Убираем границу при фокусе */
+    box-shadow: 0 0 10px rgba(44, 82, 128, 0.5);
+}
+
+.dark-blue-input:valid {
+    border: none; /* Убираем границу при введенном тексте */
+}
+
+.dark-blue-input:invalid {
+    border: none; /* Убираем границу при неверном тексте */
+}
+
+.dark-blue-input:disabled {
+    background-color: #191918;
+    color: #FFFFFF;
+    cursor: not-allowed;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #546e7a;
+    color: #fff;
+}
+
+th {
+    background-color: #2c3e50;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #34495e;
+}
+
+tr:hover {
+    background-color: #4a6274;
+}
+
+td {
+    padding: 15px;
+}
